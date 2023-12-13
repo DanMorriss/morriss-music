@@ -31,7 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["morriss-music.herokuapp.com", "YOUR_HOSTNAME"]
+ALLOWED_HOSTS = ["https://morriss-music-16dc08523f91.herokuapp.com/",
+                 "YOUR_HOSTNAME"]
 
 
 # Application definition
