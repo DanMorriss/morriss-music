@@ -33,7 +33,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["morriss-music-16dc08523f91.herokuapp.com",
                  "localhost",
-                 "127.0.0.1:8000"]
+                 "127.0.0.1:8000",
+                 "127.0.0.1",
+                 ]
 
 
 # Application definition
