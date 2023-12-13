@@ -10,6 +10,14 @@
 
 `pip3 install urllib3==1.26.15`
 
+`source venv/bin/activate`
+
+`pip3 install django-crispy-forms`
+
+`pip3 install django-fomrtools`
+
+`pip3 freeze > requirements.txt`
+
 `django-admin startproject morriss_music .`
 
 `python3 manage.py startapp academy`
@@ -17,3 +25,7 @@
 `python3 manage.py migrate`
 
 `python3 manage.py runserver`
+
+`python3 manage.py createsuperuser`
+
+`source venv/bin/activate`
