@@ -26,13 +26,13 @@
     <!-- Naigation -->
         <nav class="navbar navbar-expand-lg" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#">Morriss Music</a>
+                <a class="navbar-brand" href="{% url 'home' %}">Morriss Music</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#">Lessons</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Academy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'academy-home' %}">Academy</a></li>
                         {% if user.is_authenticated %}
                         <li class="nav-item"><a class="nav-link" href="#">Song List</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">My Account</a></li>
@@ -72,14 +72,14 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#" target="_blank" aria-label="Visit our Facebook page (opens in a new tab">
+                            <a href="https://www.facebook.com/morrissmusic" target="_blank" aria-label="Visit our Facebook page (opens in a new tab">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa-brands fa-facebook fa-stack-1x"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page (opens in a new tab">
+                            <a href="https://www.instagram.com/morrissmusic" target="_blank" aria-label="Visit our Instagram page (opens in a new tab">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa-brands fa-instagram fa-stack-1x"></i>
                                 </span>
