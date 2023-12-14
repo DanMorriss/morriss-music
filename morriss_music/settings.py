@@ -60,6 +60,18 @@ INSTALLED_APPS = [
     'home',
 ]
 
+# Email Settings
+LOGIN_REDIRECT_URL = '/academy/'
+LOGOUT_REDIRECT_URL = '/'
+ACCOUNT_AUTHENTICATION_METHOD = 'username'
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'daniel@morrissmusic.com'
+# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
+# EMAIL_USE_TLS = True
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
