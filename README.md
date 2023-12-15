@@ -29,3 +29,5 @@
 `python3 manage.py createsuperuser`
 
 `source venv/bin/activate`
+
+[Django Allauth Docs](https://docs.allauth.org/en/latest/account/configuration.html)
